@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="imagex/png" href="C:\Users\BEI\OneDrive - NEC ENERGIA\Documentos\flask\images.png">
+    <title>Trabalho Extensionista</title>
+    <link rel="stylesheet" href="trabalho.css">
+</head>
+<body>
+    <div id="title">
+    <h1>JAÍBA-MG</h1>
+   <DIV ID="data">
+    <P>Em 2022, a área do município era de 2.635,467 km², o que o coloca na posição 39 de 
+        853 entre os municípios do estado e 576 de 5570 entre todos os municípios.</P> 
+   </DIV>  
+        <h2>POPULAÇÃO</h2>
+        <div id="data">
+        <p>Em 2022, a população era de 37.660 habitantes e a densidade demográfica era de 14,29 habitantes por quilômetro quadrado. 
+            Na comparação com outros municípios do estado, ficava nas posições 97 e 596 de 853.
+             Já na comparação com municípios de todo o país, ficava nas posições 871 e 3841 de 5570.</p>
+         </div>    
+             <h2>TRABALHO E RENDIMENTO</h2>
+            <div id="data">
+             <p>Em 2021, o salário médio mensal era de 1,9 salários mínimos. A proporção de pessoas ocupadas em relação à população total era de 16,27%.
+                 Na comparação com os outros municípios do estado, ocupava as posições 184 de 853 e 334 de 853, respectivamente. Já na comparação com cidades do país todo, 
+                 ficava na posição 2715 de 5570 e 2175 de 5570, respectivamente. Considerando domicílios com rendimentos mensais de até meio salário mínimo por pessoa, 
+                tinha 41,8% da população nessas condições, o que o colocava na posição 275 de 853 dentre as cidades do estado e na posição 2496 de 5570 dentre as cidades do Brasil.</p>
+               </div> 
+               <h2>EDUCAÇÃO</h2>
+               <div id="data">
+                <p>Em 2010, a taxa de escolarização de 6 a 14 anos de idade era de 97,4%. Na comparação com outros municípios do estado, ficava na posição 493 de 853. 
+                    Já na comparação com municípios de todo o país, ficava na posição 3079 de 5570. Em relação ao IDEB, no ano de 2021, o IDEB para os anos iniciais do 
+                    ensino fundamental na rede pública era 5,2 e para os anos finais, de (não há dados).
+                     Na comparação com outros municípios do estado, ficava nas posições 640 e (não há dados) de 853. 
+                    Já na comparação com municípios de todo o país, ficava nas posições 3296 e (não há dados) de 5570.</p>
+                    </div>
+                    <h2>ECONOMIA</h2>
+                    <div id="data">
+                    <p>Em 2021, o PIB per capita era de R$ 21.310,16. Na comparação com outros municípios do estado, ficava nas posições 384 de 853 entre os municípios do estado e na 3012 de 5570 
+                        entre todos os municípios. Já o percentual de receitas externas em 2015 era de 89,4%, o que o colocava na posição 373 de 853 entre os municípios do estado e na 2320 de 5570. 
+                        Em 2017, o total de receitas realizadas foi de R$ 69.631,38 (x1000) e o total de despesas empenhadas foi de R$ 62.204,91 (x1000). Isso deixa o município nas posições 128 e 127 de 853
+                         entre os municípios do estado e na 1320 e 1337 de 5570 entre todos os municípios.</p>
+                        </div>
+                         <h2>SAÚDE</h2>
+                         <div id="data">
+                         <p>A taxa de mortalidade infantil média na cidade é de 3,45 para 1.000 nascidos vivos. 
+                            As internações devido a diarreias são de 0,4 para cada 1.000 habitantes. Comparado com todos os municípios do estado,
+                             fica nas posições 542 de 853 e 421 de 853, respectivamente. Quando comparado a cidades do Brasil todo, 
+                             essas posições são de 3924 de 5570 e 3606 de 5570, respectivamente.</p>
+            </div>
+            <h2>MEIO AMBIENTE</h2>
+            <div id="data">
+            <p>Apresenta 19% de domicílios com esgotamento sanitário adequado, 70,5% de domicílios urbanos em vias públicas
+                 com arborização e 5,8% de domicílios urbanos em vias públicas com urbanização adequada (presença de bueiro, calçada, pavimentação e meio-fio). 
+                 Quando comparado com os outros municípios do estado, fica na posição 766 de 853, 342 de 853 e 656 de 853, respectivamente. 
+                 Já quando comparado a outras cidades do Brasil, sua posição é 3703 de 5570, 3078 de 5570 e 3329 de 5570, respectivamente.</p>
+    
+</div>
+    <div id="img">
+    <img src="https://www.google.com.br/maps/vt/data=JW-syzZeIzUw4LwUIxxsx8GtZZqHNdmJfkyRIXDaq4arpXmuWky4a5ja4XPV2W99aE3O5Vm6DjNjbdnQQTDBRHONX23GnMtaC-M09PmPq81yKLLeoEIHo1MA3Q6qYKDOst8XSgxBMRSg1j5NiADbX3TVjyAQj2GoAjj-yDm4rBwiKt7ZCylYph_-u9_S1SP6MeVsj9-BBLmZy4aphRpC7cYBXz8VsNCctgFmslSX-hJDIGCEy1QJZU0tFrw-RtbcxfVa_7vrJG-CAjWHDbJ2Zm7mNw">
+   </div>
+ <h3>Medidor Arduino Uno-DHT22</h3>
+   <div id="data">
+        <p id="p1">Temperatura: <span id="temperatura"></span> °C</p>
+        <p id="p1">Umidade: <span id="umidade"></span> %</p>
+    </div>
+</DIV>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            // Função para obter os dados do servidor
+            function getData() {
+                $.get('/data', function(data) {
+                    $('#temperatura').text(data.temperatura);
+                    $('#umidade').text(data.umidade);
+                });
+            }
+            // Atualizar os dados a cada 5 segundos
+            setInterval(getData, 5000);
+            // Chamar a função pela primeira vez
+            getData();
+        });
+    </script>
+</body>
+</html>
